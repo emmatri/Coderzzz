@@ -3,11 +3,18 @@
   <head>
   <title>Nutrition</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <link href='css/bootstrap.css' rel='stylesheet'>
+  <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
     </head>
 
+    <div id="header">
+      <div class="container">
+        <a id="header-title"
+      href="index.html"> Nutrition </a>
+        <ul id="header-nav">
+        </div>
+      </div>
+
 <body>
-  <h1>Nutrition</h1>
 
 <p>It's no secret that a balanced diet is beneficial for your physical well
     being, but did you know that eating well can improve your mental health too?<p>
@@ -32,12 +39,14 @@
   healthy!</p>
 
   <h1>Recipes</h1>
-
+<div class="row">
+<div class="col-sm-4">
 <div id="recipe_1">
   <h2>CHARRED TOFU AND SHIITAKE PHO</h2>
   <h3>Ingredients</h3>
-  <img src="Pho.png">
-    <ul>
+  <img src="Pho.png" class="img-rounded" width="300" height="300">
+
+    <ul id="ingredients_1">
         <li>1 Tsp of Coriander Seeds</li>
         <li>1 Cinnamon Sticks</li>
         <li>1 Large knob of Ginger</li>
@@ -51,6 +60,7 @@
         <li>2 x 240g Packs of Tofu</li>
         <li>5 Tablespoons of Soy Sauce</li>
       </ul>
+
   <h3>Method</h3>
     <ol>
       <li>Into a saucepan, add chopped spring onions, half of your chopped red
@@ -68,11 +78,13 @@
           chilli, mint, coriander and basil. Then tuck in!</li>
     </ol>
 </div id="recipe_1">
+</div class="col-sm-4">
 
+<div class="col-sm-4">
 <div id="recipe_2">
   <h2>CHICKEN & EGG FRIED RICE</h2>
   <h3>Ingredients</h3>
-  <img src="Rice.png">
+  <img src="Rice.png" class="img-rounded" width="300" height="300">
 
     <ul>
         <li>4 spring onions</li>
@@ -87,6 +99,7 @@
         <li>Soy sauce</li>
     </ul>
 
+<h3>Method</h3>
     <ol>
         <li>Slice the spring onions, ginger, red chilli, carrots and garlic.</li>
         <li>Season the chicken thighs. Get a large frying pan on the heat,
@@ -105,11 +118,13 @@
         <li>Serve with lime wedges!</li>
     </ol>
 </div id="recipe_2">
+</div class="col-sm-4">
 
+<div class="col-sm-4">
 <div id="recipe_3">
   <h2>'NDUJA PESTO PASTA</h2>
   <h3>Ingredients</h3>
-  <img src="Pasta.png">
+  <img src="Pasta.png" class="img-rounded" width="300" height="300">
 
     <ul>
         <li>4 Tablespoons of Sacla’ ‘Nduja Pesto</li>
@@ -124,6 +139,7 @@
         <li>Pack of Sweet Peppers</li>
     </ul>
 
+<h3>Method</h3>
     <ol>
         <li>Slice up your peppers.</li>
         <li>Add to a wide frying pan with a splash of oil.</li>
@@ -143,6 +159,8 @@
         <li>Serve it up and demolish.</li>
     </ol>
 </div id="recipe_3">
+</div class="col-sm-4">
+</div>
 
 <div id="resources">
 <h2>Links and resources</h2>
@@ -157,3 +175,33 @@
          </li>
   </ul>
 </div id="resources">
+
+<div id="footer">
+  <div class="container">
+    <div class="column">
+      <h4>Social</h4>
+      <p>
+        <a href="https://instagram.com/">Instagram</a>
+        <br>
+        <a href="https://facebook.com">Facebook</a>
+        <br>
+        <a href="https://twitter.com">Twitter</a>
+        <br>
+        <a href="https://pinterest.com">Pinterest</a>
+        <br>
+        <a href="https://linkedin.com">Linkedin</a>
+      </p>
+    </div>
+    <div class="column">
+        <h4>Subscribe for weekly newsletters</h4>
+        <form action="/join-email">
+          <input type="text" placeholder="Email address" required>
+          <button type="submit" required>Submit</button>
+        </form>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
