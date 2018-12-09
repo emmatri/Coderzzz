@@ -144,7 +144,17 @@ p {
 
 #resources {
   text-align: center;
-  margin: 50px auto;
+  margin: 70px auto;
 }
 
 ul { display: inline-block; text-align: left; }
+
+.centered_list {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.small_centered_list {
+  text-align: center;
+  margin: 70px auto;
+}
