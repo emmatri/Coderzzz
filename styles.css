@@ -5,6 +5,7 @@ body {
   margin: 0;
   font-family: 'Montserrat',sans-serif;
 }
+
 #header {
   background-color: #5897D7;
   height: 150px;
@@ -92,20 +93,20 @@ p {
   line-height: 1.5;
 }
 
+#exercise_link {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+#nutrition_link {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
 */ nutrition page styling */
 
-.nutrition_link {
-  color: black;
-}
-.exercise_link {
-  color: black;
-}
-
-.nutrition_info{
-  max-width: 1000px;
-  margin: 100px auto;
-  padding-top: 60px;
-  padding-bottom: 30px;
+.nutrition_paragraph {
+  text-align: center;
 }
 
 .recipes{
