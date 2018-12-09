@@ -1,0 +1,126 @@
+<!DOCTYPE HTML>
+<HTML>
+  <head>
+  <title>Exercise</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    </head>
+
+    <div id="header">
+      <div class="container">
+        <a id="header-title"
+      href="index.html"> Exercise </a>
+        <ul id="header-nav">
+        </div>
+      </div>
+
+<body>
+  <h1>Exercise</h1>
+
+<p>There is strong evidence demonstrating the benefit of exercise on your
+ mental health. The release of endorphins can boost mood, energy levels and
+reduce stress. So why not give it a go?</p>
+
+<p>You do no need to run a marathon to make the most of exercise. Virtually any
+form of exercise, from aerobics to yoga, can act as a stress reliever. It can be
+as simple as a gentle walk or stretches. Discover the connection between
+exercise and stress relief - see below for more ideas and tips!</p>
+
+<div id="exercise_1">
+
+  <h1>YOGA</h1>
+
+<p>Yoga is an ancient form of exercise that focuses on strength, flexibility
+and breathing to boost physical and mental wellbeing.Many studies have found
+that a little yoga in the morning, at night, or even on a lunch break, can
+minimise stress and increase productivity. It is believed that yoga is so
+effective for stress relief because, aside from the physical benefits that
+yoga brings, it encourages a good mood, an increase in mindfulness, and a
+healthy dose of self-compassion. Give the poses below a try!</p>
+
+  <h2>CHILD'S POSE</h2>
+
+<img src="Child's_Pose.png" class="img-rounded" width="300" height="300">
+
+<p>Child's Pose is perfect for when you've had a long, exhausting day and you
+just want to get comfy and curl up in a ball. This resting position can be held
+for as short as 30 seconds up to several minutes — depending on how long it
+takes you to relax into the posture and get fully comfortable.
+It can relieve back and neck pain when the head and torso are supported, calm
+the brain, and assist in the reduction of stress and fatigue.
+Close your eyes, breathe, and let all that stress go.</p>
+
+  <h2>CAT AND COW POSE</h2>
+
+<img src="Cat_pose.png" class="img-rounded" width="300" height="300">
+
+<p> Inhale, lift the heart, the head and the tailbone; exhale and draw in the
+belly as you lift the spine toward the sky; let the head and tailbone drop,
+releasing the spine and getting all kinds of lovely space in there.
+Keep going, following the breath, five times or until you feel ready to
+move on.</p>
+
+  <h2>DOWNWARD DOG</h2>
+
+<img src="Dog_Pose.png" class="img-rounded" width="300" height="300">
+
+<p>The downward dog is the great for blood flow. Tuck the toes and on an exhale,
+come up into downward-facing dog (Adho Mukha Svanasana). Pedal the feet here,
+stretching the calves, hamstrings, and just letting the back decompress.</p>
+
+</div id="exercise_1">
+
+<div id="exercise_2">
+
+  <h1>High Intensity Interval Training (HIIT)</h1>
+
+<p>HIIT is great for blood flow and creates a real rush of endorphins. It
+can be as short as 10 minutes to have a real effect. Try the workout below:
+  <ul>
+      <li>3 min fast walk warm up </li>
+      <li>30 seconds sprint</li>
+      <li>30 seconds walk x 3</li>
+      <li>3 min fast walk cool down</li>
+  </ul>
+
+</div id="exercise_2"
+
+<div id="resources">
+<h2>Links and resources</h2>
+<p>There are many resources online for simple ways to stay fit!</p>
+
+  <ul>
+    <li> <a href="https://www.yogajournal.com/poses"</a></li>
+    <li> <a href="https://www.everydayhealth.com/healthy-living/fitness/9-exercises-stress-relief/"</a></li>
+  </ul>
+</div id="resources">
+
+<div id="footer">
+  <div class="container">
+    <div class="column">
+      <h4>Social</h4>
+      <p>
+        <a href="https://instagram.com/">Instagram</a>
+        <br>
+        <a href="https://facebook.com">Facebook</a>
+        <br>
+        <a href="https://twitter.com">Twitter</a>
+        <br>
+        <a href="https://pinterest.com">Pinterest</a>
+        <br>
+        <a href="https://linkedin.com">Linkedin</a>
+      </p>
+    </div>
+    <div class="column">
+        <h4>Subscribe for weekly newsletters</h4>
+        <form action="/join-email">
+          <input type="text" placeholder="Email address" required>
+          <button type="submit" required>Submit</button>
+        </form>
+    </div>
+  </div>
+</div>
+
+
+</body>
+</html>
