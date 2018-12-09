@@ -158,3 +158,13 @@ ul { display: inline-block; text-align: left; }
   text-align: center;
   margin: 70px auto;
 }
+
+*/ about page styling */
+#about_title {
+  margin: 100px auto;
+  text-align: center;
+}
+
+.about_text {
+  text-align: center
+}
