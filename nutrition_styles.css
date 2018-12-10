@@ -45,6 +45,7 @@ body {
   background-color: #7E8390;
   padding: 50px 0;
 }
+
 .column {
   min-width: 300px;
   display: inline-block;
@@ -58,13 +59,11 @@ body {
   vertical-align: top;
 }
 
-
 #footer h4 {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
-
 #footer p {
   color: white;
 }
@@ -73,45 +72,81 @@ a {
   color: white;
   text-decoration: none;
 }
+
 a:hover{
   color:#F6A623;
 }
-.post {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 60px 0;
-}
-.post-author img {
-  width: 800px;
-  height: 400px;
-  vertical-align: left;
+
+h1 {
+  color: #333;
+  text-align: center;
+  padding-bottom: 30px;
 }
 
-.post-author span {
-  margin-left: 16px;
-}
-.post-date {
-  color: #d2d2d2;
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-h1, h2, h3, h4 {
+h2, h3, {
   color: #333;
+  text-align: center;
+  margin: 0 auto;
 }
+
+h4 {
+  text-align: left;
+}
+
 p {
   line-height: 1.5;
 }
 
-#exercise_link {
-  text-align: left;
-  padding-bottom: 50px;
-  padding-left: 150px;
+.nutrition_info {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 60px 0;
+  font-size: 18px;
 }
 
-#nutrition_link {
-  text-align: right;
-  padding-bottom: 50px;
-  padding-right: 150px;
+blockquote {
+  font-size: 14px;
+  font-style: italic;
+}
+
+
+#tofu_header, #chicken_header, #pasta_header {
+  text-align: center;
+  font-size: 22px
+}
+
+.method, .ingredients {
+  text-align:center;
+}
+
+.img-rounded {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nutrition_text {
+  margin-left:2%;
+  margin-right:2%;
+}
+
+#resources {
+  text-align: center;
+  margin: 70px auto;
+}
+
+ul { display: inline-block; text-align: left; }
+
+.centered_list {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.small_centered_list {
+  text-align: center;
+  margin: 70px auto;
+}
+
+#advice {
+  font-size: 16px;
 }
