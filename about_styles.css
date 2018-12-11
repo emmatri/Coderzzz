@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=KoHo:400,700);
+
+body {
+  color: #555;
+  margin: 0;
+  font-family: 'Montserrat',sans-serif;
+}
+
+#header {
+  background-color: #5897D7;
+  height: 150px;
+  line-height: 150px;
+}
+#header a {
+  color: white;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+}
+
+#header a:hover {
+  color: #222
+}
+
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-family: 'Homemade Apple', cursive;
+  font-weight: bold;
+}
+#header-nav {
+  display: block;
+  float: right;
+  margin-top: 0;
+}
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#footer {
+  background-color: #7E8390;
+  padding: 50px 0;
+}
+
+.column {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  text-align: -webkit-center;
+}
+
+.socials {
+  min-width: 300px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+#socials {
+  text-align: left;
+  padding: 0;
+}
+
+#footer h4 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+#footer p {
+  color: white;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  padding-top: 20px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 20px;
+}
+
+.img-rounded {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
