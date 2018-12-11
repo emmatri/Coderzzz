@@ -101,3 +101,10 @@ p {
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color:#1abc9c;

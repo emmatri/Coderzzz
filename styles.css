@@ -56,6 +56,7 @@ body {
   min-width: 300px;
   display: inline-block;
   vertical-align: top;
+
 }
 
 #content {
@@ -80,7 +81,7 @@ a {
   text-decoration: none;
 }
 a:hover{
-  color:#F6A623;
+  color:#1abc9c;
 }
 .post {
   max-width: 800px;
